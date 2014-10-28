@@ -1,4 +1,4 @@
-var slugify = require('../index.js');
+var slugify = require('./index.js');
 
 describe('Slug', function() {
 
