@@ -12,7 +12,7 @@ describe('Slug', function() {
     expect(text).toBe('hello');
   });
 
-  it('converts !@#@!# word to a url safe', function() {
+  it('converts !@#@!# word to a safe url', function() {
     var text = slugify('__');
     expect(text).toBe('__');
   });
