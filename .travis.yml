@@ -4,3 +4,5 @@ node_js:
 before_script:
   - "npm i -g jasmine-node"
   - "npm i -g istanbul"
+after_script:
+  - "istanbul cover jasmine-node ."
